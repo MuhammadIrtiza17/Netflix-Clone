@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/Netflix_N.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+    <main>
+        <section id="hero-section">
+            <div id="hero-section-nav">
+                <div><img id="backdrop-hero" src="./image/Vector__3_.svg" alt=""></div>
+                <div><button id="sign_in"> Sign In </button></div>
+            </div>
+            <div id="body-area">
+                <h1>Unlimited movies, TV shows, and more
+                </h1>
+                <h2 id="watch-tag">Watch anywhere. Cancel anytime.
+                </h2>
+                <p iid="sub-tag">Ready to watch? Enter your email to create or restart your membership.
+                </p>
+                <div id="cat-div"> <input type="text" placeholder="Email address">
+                    <button id="CAT">GET STARTED ></button>
+                </div>
+            </div>
+        </section>
+        <div id="seprator"></div>
+        <section style="background-color: black;">
+            <div class="grid-gallery">
+                <div class="grid-gallery-div">
+                <div>
+                    <img class="mini-img" src="./image/tv.png" alt="">
+                </div>
+                <div class="grid-gallery-content">
+                    <h2 class="grid-h2">Enjoy on your TV
+                    </h2>
+                    <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+
+                    </h3>
+                </div>
+                </div>
+            </div>
+        </section>
+        <div id="seprator"></div>
+        <section style="background-color: black;">
+            <div class="grid-gallery">
+                <div class="grid-gallery-div reverse-one">   <div>
+                    <img  class="mini-img" src="./image/./mobile-0819.jpg" alt="">
+                </div>
+                <div class="grid-gallery-content">
+                    <h2 class="grid-h2">Download your shows to watch offline
+                    </h2>
+                    <h3>Save your favorites easily and always have something to watch.
+
+                    </h3>
+                </div></div>
+             
+            </div>
+        </section>
+        <div id="seprator"></div>
+        <section style="background-color: black;">
+            <div class="grid-gallery">
+                <div class="grid-gallery-div">
+                <div>
+                    <img  class="mini-img" src="./image/kids.png" alt="">
+                </div>
+                <div class="grid-gallery-content">
+                    <h2 class="grid-h2">Create profiles for kids
+                    </h2>
+                    <h3>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.
+
+                    </h3>
+                </div>
+                </div>
+            </div>
+        </section>
+        <div id="seprator"></div>
+      <section>
+          <h2 style="margin: 0%; text-align: center;">Frequently Asked Questions</h2>
+          
+    <div id="faq-container">
+        <div class="question-div">
+            <P id="para-question">What is Netflix? </P>
+        </div>
+        <div class="answer-div">
+            <p style="margin: 0%;">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+
+                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+        </div>
+    </div>
+
+
+          <div id="cat-div"> <input type="text" placeholder="Email address">
+            <button id="CAT">GET STARTED ></button>
+        </div>
+      </section>
+    </main>
+    <div id="seprator"></div>
+
+<footer >
+<div id="footer-div"><a class="footer-links"   href="">Do You Have Any Question ? Contact Us!</a>
+    <table>
+        <th>
+            <tr>
+                <td><a class="footer-links"  href="#">FAQ</a></td>
+                <td><a class="footer-links"  href="#">Help Center</a></td>
+                <td><a class="footer-links"  href="#">Account</a></td>
+
+            </tr>
+            <tr>
+                <td><a class="footer-links"  href="#">Media Center </a></td>
+                <td><a class="footer-links"  href="#">Investor Realtions</a></td>
+                <td><a class="footer-links"  href="#">Jobs</a></td>
+
+            </tr><tr>
+                <td><a class="footer-links"  href="#">Way To Watch</a></td>
+                <td><a class="footer-links"  href="#">Terms Of Use</a></td>
+                <td><a class="footer-links"  href="#">Privacy</a></td>
+
+            </tr><tr>
+                <td><a class="footer-links"  href="#">Cookie Preferences</a></td>
+                <td><a class="footer-links"  href="#">Corporate Information</a></td>
+                <td><a  class="footer-links" href="#">Contact Us</a></td>
+
+            </tr>
+            <tr>
+                <td><a  class="footer-links" href="#">Speed Test</a></td>
+                <td><a  class="footer-links" href="#">Legal Notices</a></td>
+                <td><a  class="footer-links" href="#">Only On Netflix</a></td>
+
+            </tr>
+        </th>
+     </table>
+      <select name="language" id="lang-drop">
+         <option value="english">English</option>
+         <option value="urdu">Urdu</option>
+         <option value="spanish">Spanish</option>
+         <option value="french">French</option>
+
+      </select>
+     <h5>Netflix Pakistan</h5></div>
+     
+</footer>
+
+<script>
+    $(document).ready(function () {
+        $(".question-div").click(function () {
+
+            $(".answer-div").slideToggle();
+
+        });
+    });
+
+</script>
+</body>
+
+</html>
